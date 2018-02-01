@@ -3,14 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-
+import { ElementTestComponent } from './element-test/element-test.component';
+import { ScrollEventModule } from 'ngx-scroll-event';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ElementTestComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ScrollEventModule
   ],
   providers: [],
   bootstrap: [AppComponent]

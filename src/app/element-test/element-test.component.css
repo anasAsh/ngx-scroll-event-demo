@@ -1,0 +1,16 @@
+#main-scroll-element {
+  height: 400px;
+  width: 100%;
+  overflow: auto;
+}
+#main-scroll-element div {
+  height: 50px;
+}
+
+#main-scroll-element div:nth-child(odd) {
+  background: red;
+}
+
+#main-scroll-element div:nth-child(even) {
+  background: blue;
+}
